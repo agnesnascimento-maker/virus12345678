@@ -1,18 +1,24 @@
 /* trabalho de biologia - css */
 
+/* seletor universal */
+* {
+    line-height: 1.5; /* line-height adicionado */
+}
+
 body {
-    background-color: #F9ECE5;
+    background-color: #F9ECE5; /* cor por HEX */
     margin: 20px;
 }
 
 /* titulos em bebas neue e cor vinho */
 h1, h2, h3, legend {
-    font-family: 'Bebas Neue', sans-serif;
-    color: #68150A;
+    font-family: 'Bebas Neue', sans-serif; /* font-family */
+    color: marooon; /* cor por NOME */
+    font-weight: 700; /* font-weight adicionado */
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 38px; /* font-size */
     margin-bottom: 0;
 }
 
@@ -28,13 +34,14 @@ h3 {
 /* frases e textos na fonte cardo */
 p, label, input, select, textarea, button, summary, details, mark, option {
     font-family: 'Cardo', serif;
-    color: black;
+    color: rgba(0, 0, 0, 0.9); /* cor por RGBA */
     font-size: 15px;
+    font-weight: 400; /* font-weight */
 }
 
 .subtitulo {
     font-style: italic;
-    color: #68150A;
+    color: rgb(104, 21, 10); /* cor por RGB */
     margin-top: 5px;
     margin-bottom: 15px;
 }
@@ -55,12 +62,11 @@ fieldset {
 }
 
 mark {
-    background-color: yellow;
+    background-color: yellow; /* cor por NOME */
     color: black;
 }
 
 button {
     padding: 5px 10px;
     cursor: pointer;
-}
 }
