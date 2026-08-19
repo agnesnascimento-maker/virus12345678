@@ -1,55 +1,49 @@
-/* estilo do trabalho de biologia */
+/* trabalho de biologia - css */
 
 body {
     background-color: #F9ECE5;
     margin: 20px;
 }
 
-/* Todos os titulos e legendas usam Bebas Neue e cor vinho */
+/* titulos em bebas neue e cor vinho */
 h1, h2, h3, legend {
     font-family: 'Bebas Neue', sans-serif;
-    font-weight: 400;
     color: #68150A;
-    letter-spacing: 1px;
 }
 
 h1 {
-    font-size: 40px;
-    margin-bottom: 0px;
+    font-size: 38px;
+    margin-bottom: 0;
 }
 
 h2 {
-    font-size: 28px;
-    margin-top: 20px;
+    font-size: 26px;
+    margin-top: 18px;
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 20px;
 }
 
-/* Todos os textos, paragrafos e formulario usam a fonte Cardo */
+/* frases e textos na fonte cardo */
 p, label, input, select, textarea, button, summary, details, mark, option {
     font-family: 'Cardo', serif;
-    font-weight: 400;
     color: black;
-    font-size: 16px;
+    font-size: 15px;
 }
 
-/* Subtitulo especifico abaixo do h1 */
-#subtitulo-saiba-mais {
+.subtitulo {
     font-style: italic;
     color: #68150A;
     margin-top: 5px;
     margin-bottom: 15px;
 }
 
-#link-fonte {
+a {
     color: #68150A;
-    text-decoration: underline;
-    font-family: 'Cardo', serif;
 }
 
-#foto-virus {
+img {
     border: 1px solid black;
     max-width: 100%;
 }
@@ -65,10 +59,8 @@ mark {
     color: black;
 }
 
-#btn-enviar {
-    padding: 5px;
+button {
+    padding: 5px 10px;
     cursor: pointer;
-    background-color: #e0e0e0;
-    border: 1px solid #767676;
-    color: black;
+}
 }
