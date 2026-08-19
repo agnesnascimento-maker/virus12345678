@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>trabalho de biologia covid</title>
+    
+    <!-- Fontes Bebas Neue e Cardo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="titulo-principal">Informativo COVID-19</h1>
+    <p id="subtitulo-saiba-mais">Saiba mais sobre o Coronavírus</p>
+    
+    <img id="foto-virus" src="../imagens/coronavirus.png" width="500"><br>
+
+    <h2>O que é a COVID-19?</h2>
+    <p>A covid é uma infecção respiratória aguda provocada pelo vírus SARS-CoV-2. Ela acabou pegando o mundo todo de surpresa no final de 2019 e em 2020.</p>
+
+    <h2>Modo de transmissão</h2>
+    <p>A transmissão acontece de forma muito fácil através de três modos principais: pelo contato direto com a pessoa doente, por gotículas do espirro ou fala, e por partículas dispersas no ar (aerossóis).</p>
+
+    <h2>Sintomas e Manifestações Clínicas</h2>
+    <p>Os sintomas podem variar desde casos sem nenhum sintoma até quadros graves. Os sinais mais comuns que o pessoal sente são:</p>
+    <p>
+        • Febre, tosse e dor de garganta<br>
+        • Coriza, mialgia (dor muscular) e calafrios<br>
+        • Fadiga, dor de cabeça (cefaleia)<br>
+        • Perda de olfato (anosmia) e de paladar (ageusia)<br>
+        • Diarreia e dores na barriga
+    </p>
+    <p>Nos casos mais graves, além de tosse e febre, a pessoa sente bastante falta de ar (dispneia), dor forte no peito e saturação de oxigênio abaixo de 94%, ficando até com os lábios ou o rosto meio azulados (SRAG).</p>
+
+    <h2>Critérios de Confirmação</h2>
+    <h3>1. Critério Clínico-Epidemiológico</h3>
+    <p>Pessoa que teve sintomas gripais e teve contato próximo nos últimos 7 dias com alguém que já estava confirmado com a doença.</p>
+    
+    <h3>2. Critério Laboratorial</h3>
+    <p>Confirmação feita por testes como biologia molecular (RT-PCR e RT-LAMP) ou teste rápido de antígeno (pelo método de imunocromatografia) com resultado reagente.</p>
+
+    <h2>Complicações da Doença</h2>
+    <p>Algumas pessoas podem evoluir para a forma crítica da doença, precisando de suporte de oxigênio e UTI devido a falência respiratória, sepse, choque séptico, trombose ou parada de órgãos.</p>
+    <p>Em crianças e adolescentes, foi observada uma complicação tardia chamada Síndrome Inflamatória Multissistêmica Pediátrica (SIM-P). Casos parecidos em adultos (SIM-A) também são raros mas acontecem, sendo ambos de notificação obrigatória.</p>
+
+    <h2>Tratamento no SUS</h2>
+    <p>O SUS incorporou os antivirais nirmatrelvir e ritonavir (NMV/r) para diminuir o risco de internação. O remédio é focado em pessoas acima de 65 anos ou maiores de 18 anos imunossuprimidos, entre o 1º e 5º dia de sintomas leves ou moderados e sem uso de oxigênio.</p>
+
+    <h2>Medidas de Prevenção</h2>
+    <p>A vacinação é a principal defesa contra formas graves. Além da vacina, é muito importante manter o uso de máscara, higienização das mãos com álcool em gel, etiqueta respiratória e isolamento de quem estiver contaminado.</p>
+
+    <h3>Fonte da pesquisa:</h3>
+    <p>
+        Texto adaptado com base nos dados e documentos do 
+        <a id="link-fonte" href="https://www.gov.br/saude/pt-br/assuntos/coronavirus" target="_blank">Ministério da Saúde / OMS</a>.
+    </p>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            
+            Nome completo: <input type="text" placeholder="Digite seu nome"><br><br>
+
+            E-mail:* <input type="email" required><br><br>
+
+            Senha: <input type="password"><br><br>
+
+            Idade: <input type="number"><br><br>
+
+            Data de nascimento: <input type="date"><br><br>
+
+            Gênero: 
+            <select>
+                <option>Selecione</option>
+                <option>Feminino</option>
+                <option>Masculino</option>
+                <option>Outro</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Sintomas e Vacina</legend>
+
+            Sintoma que voce sentiu recentimente:*<br>
+            <input type="text"><br><br>
+
+            Quantas doses tomou:
+            <select>
+                <option>Selecione</option>
+                <option>Nenhuma</option>
+                <option>1 dose</option>
+                <option>2 doses</option>
+                <option>3 doses ou mais</option>
+            </select><br><br>
+
+            Fale um pouco sobre o que esta sentindo:<br>
+            <textarea rows="4" cols="35"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferências de Contato</legend>
+
+            Melhor horário para ligar: <input type="time"><br><br>
+
+            Data disponivel para postar o trabalho: <input type="date">
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações Adicionais</legend>
+
+            <details>
+                <summary>Dúvidas sobre a entrega do formulário</summary>
+                <p>Caso precise corrigir alguma resposta enviada, mande uma mensagem direto no e-mail de contato abaixo.</p>
+            </details><br>
+
+            <p><mark>Atenção: confira seus dados antes de enviar o formulario!</mark></p>
+
+            <p>Responsável pelo projeto:</p>
+            <p>
+                Trabalho do Escola / SENAI<br>
+                E-mail: agnes.nascimento@edu.senai.br
+            </p>
+
+            <button type="submit" id="btn-enviar">Enviar Cadastro</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
+
+    <l
