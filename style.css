@@ -1,24 +1,21 @@
-/* trabalho de biologia - css */
-
-/* seletor universal */
+/* covid */
 * {
-    line-height: 1.5; /* line-height adicionado */
+    line-height: 1.5;
 }
 
 body {
-    background-color: #F9ECE5; /* cor por HEX */
+    background-color: #F9ECE5;
     margin: 20px;
 }
 
-/* titulos em bebas neue e cor vinho */
 h1, h2, h3, legend {
-    font-family: 'Bebas Neue', sans-serif; /* font-family */
-    color: marooon; /* cor por NOME */
-    font-weight: 700; /* font-weight adicionado */
+    font-family: 'Bebas Neue', sans-serif;
+    color: maroon;
+    font-weight: 700;
 }
 
-h1 {
-    font-size: 38px; /* font-size */
+#titulo-principal {
+    font-size: 38px;
     margin-bottom: 0;
 }
 
@@ -27,32 +24,46 @@ h2 {
     margin-top: 18px;
 }
 
-h3 {
-    font-size: 20px;
-}
-
-/* frases e textos na fonte cardo */
-p, label, input, select, textarea, button, summary, details, mark, option {
-    font-family: 'Cardo', serif;
-    color: rgba(0, 0, 0, 0.9); /* cor por RGBA */
-    font-size: 15px;
-    font-weight: 400; /* font-weight */
-}
-
 .subtitulo {
     font-style: italic;
-    color: rgb(104, 21, 10); /* cor por RGB */
+    color: rgb(104, 21, 10);
     margin-top: 5px;
     margin-bottom: 15px;
 }
 
-a {
-    color: #68150A;
+.destaque {
+    font-size: 16px;
 }
 
-img {
-    border: 1px solid black;
-    max-width: 100%;
+.lista-itens {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+/* moldura das fotos */
+.moldura-polaroid {
+    background-color: white;
+    padding: 10px 10px 30px 10px;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 5px #888;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.moldura-polaroid img {
+    border: 2px solid black;
+}
+
+/* textos e tags */
+p, li, label {
+    font-family: 'Cardo', serif;
+    font-size: 15px;
+}
+
+a {
+    color: #68150A;
 }
 
 fieldset {
@@ -62,7 +73,7 @@ fieldset {
 }
 
 mark {
-    background-color: yellow; /* cor por NOME */
+    background-color: yellow;
     color: black;
 }
 

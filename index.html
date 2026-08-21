@@ -1,63 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>covid</title>
     
-    <!-- fontes do google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-    <!-- css externo -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <h1 id="titulo-principal">Informativo COVID-19</h1>
-    <p class="subtitulo">Saiba mais sobre o Coronavírus</p>
     
-    <!-- Imagem apontando para a pasta imagens -->
-    <img src="imagens/coronavirus.png" alt="Coronavírus" width="500"><br><br>
+    <p class="subtitulo destaque">SAIBA MAIS SOBRE O CORONAVÍRUS:</p>
+    
+    <div class="moldura-polaroid">
+        <img src="imagens/coronavirus.png" alt="Coronavírus" width="380">
+    </div><br><br>
 
     <h2>O que é a COVID-19?</h2>
-    <p>A covid é uma infecção respiratória aguda provocada pelo vírus SARS-CoV-2. Ela acabou pegando o mundo todo de surpresa no final de 2019 e em 2020.</p>
+    <p>A covid é uma infecção respiratória provocada pelo vírus SARS-CoV-2. Ela acabou pegando todo mundo de surpresa no final de 2019 e começo de 2020.</p>
 
     <h2>Modo de transmissão</h2>
-    <p>A transmissão acontece de forma muito fácil através de três modos principais: pelo contato direto com a pessoa doente, por gotículas do espirro ou fala, e por partículas dispersas no ar (aerossóis).</p>
+    <p>A transmissão acontece fácil pelo contato direto com a pessoa doente, por gotículas do espirro ou fala, e por partículas no ar.</p>
 
-    <h2>Sintomas e Manifestações Clínicas</h2>
-    <p>Os sintomas podem variar desde casos sem nenhum sintoma até quadros graves. Os sinais mais comuns que o pessoal sente são:</p>
-    <p>
-        • Febre, tosse e dor de garganta<br>
-        • Coriza, mialgia (dor muscular) e calafrios<br>
-        • Fadiga, dor de cabeça (cefaleia)<br>
-        • Perda de olfato (anosmia) e de paladar (ageusia)<br>
-        • Diarreia e dores na barriga
-    </p>
-    <p>Nos casos mais graves, além de tosse e febre, a pessoa sente bastante falta de ar (dispneia), dor forte no peito e saturação de oxigênio abaixo de 94%, ficando até com os lábios ou o rosto meio azulados (SRAG).</p>
+    <h2>Sintomas principais:</h2>
+    <ol class="lista-itens">
+        <li>Febre, tosse e dor de garganta</li>
+        <li>Coriza e dor no corpo</li>
+        <li>Cansaço e dor de cabeça</li>
+        <li>Perda de cheiro e de gosto</li>
+        <li>Diarreia e dores na barriga</li>
+    </ol>
 
-    <h2>Critérios de Confirmação</h2>
-    <h3>1. Critério Clínico-Epidemiológico</h3>
-    <p>Pessoa que teve sintomas gripais e teve contato próximo nos últimos 7 dias com alguém que já estava confirmado com a doença.</p>
+    <p>Nos casos piores a pessoa sente falta de ar e dor forte no peito, precisando ir direto pro hospital.</p>
+
+    <h2>Como confirmar a doença?</h2>
+    <h3>1. Sintomas e contato</h3>
+    <p>Pessoa com sintomas que teve contato com alguém confirmado nos últimos dias.</p>
     
-    <h3>2. Critério Laboratorial</h3>
-    <p>Confirmação feita por testes como biologia molecular (RT-PCR e RT-LAMP) ou teste rápido de antígeno (pelo método de imunocromatografia) com resultado reagente.</p>
+    <h3>2. Testes de farmácia ou posto</h3>
+    <p>Confirmação feita por teste do cotonete (RT-PCR) ou teste rápido de antígeno.</p>
 
-    <h2>Complicações da Doença</h2>
-    <p>Algumas pessoas podem evoluir para a forma crítica da doença, precisando de suporte de oxigênio e UTI devido a falência respiratória, sepse, choque séptico, trombose ou parada de órgãos.</p>
-    <p>Em crianças e adolescentes, foi observada uma complicação tardia chamada Síndrome Inflamatória Multissistêmica Pediátrica (SIM-P). Casos parecidos em adultos (SIM-A) também são raros mas acontecem, sendo ambos de notificação obrigatória.</p>
+    <h2>Complicações:</h2>
+    <p>Algumas pessoas podem piorar bastante e precisar de UTI por causa de problemas no pulmão e falta de ar.</p>
 
-    <h2>Tratamento no SUS</h2>
-    <p>O SUS incorporou os antivirais nirmatrelvir e ritonavir (NMV/r) para diminuir o risco de internação. O remédio é focado em pessoas acima de 65 anos ou maiores de 18 anos imunossuprimidos, entre o 1º e 5º dia de sintomas leves ou moderados e sem uso de oxigênio.</p>
+    <h2>Tratamento:</h2>
+    <p>O posto de saúde e o SUS liberaram remédios antivirais para pessoas mais velhas ou com saúde frágil logo nos primeiros dias de sintoma.</p>
 
-    <h2>Medidas de Prevenção</h2>
-    <p>A vacinação é a principal defesa contra formas graves. Além da vacina, é muito importante manter o uso de máscara, higienização das mãos com álcool em gel, etiqueta respiratória e isolamento de quem estiver contaminado.</p>
+    <h2>Como se proteger do vírus?</h2>
+    <p>Para não pegar e nem passar o vírus para a família, é muito importante seguir essas dicas simples no dia a dia:</p>
+    <p>
+        • Lavar bem as mãos com água e sabão ou usar álcool em gel 70%<br>
+        • Usar máscara quando estiver em locais fechados ou muito cheios<br>
+        • Evitar colocar as mãos nos olhos, nariz e boca sem lavar antes<br>
+        • Manter as vacinas em dia e o cartão atualizado
+    </p>
+
+    <div class="moldura-polaroid">
+        <img src="imagens/virus 3.png" alt="Virus 3" width="380">
+    </div><br><br>
 
     <h3>Fonte da pesquisa:</h3>
     <p>
-        Texto adaptado com base nos dados e documentos do 
-        <a href="https://www.gov.br/saude/pt-br/assuntos/coronavirus" target="_blank">Ministério da Saúde / OMS</a>.
+        Texto feito com base em informações do 
+        <a href="https://www.gov.br/saude/pt-br/assuntos/coronavirus" target="_blank">Ministério da Saúde</a>.
     </p>
 
     <br>
@@ -116,15 +125,15 @@
             <legend>Informações Adicionais</legend>
 
             <details>
-                <summary>Dúvidas sobre a entrega do formulário</summary>
-                <p>Caso precise corrigir alguma resposta enviada, mande uma mensagem direto no e-mail de contato abaixo.</p>
+                <summary>Dúvidas sobre o formulário</summary>
+                <p>Se precisar mudar alguma coisa mande uma mensagem no e-mail abaixo.</p>
             </details><br>
 
             <p><mark>Atenção: confira seus dados antes de enviar o formulario!</mark></p>
 
-            <p>Responsável pelo projeto:</p>
+            <p>Aluno responsável:</p>
             <p>
-                Trabalho do Escola / SENAI<br>
+                Trabalho da Escola / SENAI<br>
                 E-mail: agnes.nascimento@edu.senai.br
             </p>
 
