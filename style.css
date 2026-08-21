@@ -1,4 +1,4 @@
-/* ZERANDO MARGENS PADRAO */
+/* Limpando as margens padrão */
 * {
     margin: 0;
     padding: 0;
@@ -8,20 +8,20 @@ html {
     scroll-behavior: smooth;
 }
 
-/* CONFIGURACOES DO CORPO */
+/* Configuração geral da página */
 body {
-    background-color: #f0f2f5; /* Cor por HEX */
-    color: #222222; /* Troca para um cinza escuro para leitura mais confortavel */
+    background-color: #f0f2f5;
+    color: #222222;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.6;
 }
 
-/* ESTRUTURA DA CAPA COM VIDEO */
+/* Capa do site com o vídeo de fundo */
 .capa {
     position: relative;
     width: 100%;
-    height: 500px; /* Altura fixa para nao dar erro no video */
+    height: 380px;
     overflow: hidden;
     background-color: black;
 }
@@ -35,18 +35,18 @@ body {
     object-fit: cover;
 }
 
-/* CAMADA ESCURA POR CIMA DO VIDEO (RGBA) */
+/* Escurece o vídeo pro texto não sumir */
 .sombra {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Cor por RGBA */
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
 
-/* TOPO E MENU SOBRE O VIDEO */
+/* Cabeçalho e menu */
 .topo {
     position: absolute;
     top: 20px;
@@ -61,7 +61,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 22px;
-    color: white; /* Cor por NOME */
+    color: white;
     float: left;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .menu a {
-    color: white; /* Cor por NOME */
+    color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 15px;
@@ -82,16 +82,14 @@ body {
     text-decoration: underline;
 }
 
-/* TEXTO DO CENTRO DA CAPA */
+/* Texto central da capa */
 .texto-capa {
     position: absolute;
-    top: 55%;
-    left: 50%;
-    margin-left: -350px; /* Centralizando do jeito tradicional */
-    margin-top: -80px;
-    width: 700px;
+    top: 100px;
+    left: 0;
+    width: 100%;
     text-align: center;
-    color: white; /* Cor por NOME */
+    color: white;
     z-index: 2;
 }
 
@@ -104,35 +102,35 @@ body {
 
 .texto-capa p {
     font-size: 20px;
-    margin-bottom: 25px; /* Afasta o botao para nao ficar grudado */
+    margin-bottom: 25px;
 }
 
-/* LINK "SAIBA MAIS" COM CORES POR NOME */
+/* Botão saiba mais */
 .link-aluno {
-    color: white; /* Cor por NOME */
+    color: white;
     font-size: 18px;
     font-weight: 600;
     text-decoration: underline;
 }
 
 .link-aluno:hover {
-    color: yellow; /* Cor por NOME */
+    color: yellow;
 }
 
 .link-aluno:active {
-    color: red; /* Cor por NOME */
+    color: red;
 }
 
-/* CONTEUDO PRINCIPAL */
+/* Corpo do texto centralizado */
 .principal {
-    width: 800px; /* Dá mais espaço para o texto respirar */
+    width: 800px;
     margin: 0 auto;
     padding: 40px 10px;
 }
 
 h2, h3, legend {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(139, 0, 0); /* Cor por RGB */
+    color: rgb(139, 0, 0);
     font-weight: 800;
 }
 
@@ -152,7 +150,7 @@ p {
     margin-bottom: 10px;
 }
 
-/* AJUSTE ESPACAMENTO DA LISTA */
+/* Ajustes na lista */
 .lista {
     padding-left: 25px;
     margin-top: 10px;
@@ -163,7 +161,7 @@ p {
     margin-bottom: 6px;
 }
 
-/* MOLDURA POLAROID COM A FITINHA (DUREX) */
+/* Foto Polaroid com durex */
 .foto-polaroid {
     position: relative;
     background-color: #ffffff;
@@ -172,7 +170,7 @@ p {
     width: 350px;
     margin: 35px auto;
     text-align: center;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15); /* Sombra simples de foto */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .durex {
@@ -181,15 +179,15 @@ p {
     left: 115px;
     width: 120px;
     height: 22px;
-    background-color: rgba(235, 220, 180, 0.75); /* Cor de fita transparente em RGBA */
+    background-color: rgba(235, 220, 180, 0.75);
     border: 1px solid #d2b48c;
 }
 
 a {
-    color: rgb(139, 0, 0); /* Cor por RGB */
+    color: rgb(139, 0, 0);
 }
 
-/* ESTILO DO FORMULARIO */
+/* Formulário de contato */
 fieldset {
     border: 1px solid #a9a9a9;
     background-color: #ffffff;
