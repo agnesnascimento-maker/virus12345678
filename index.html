@@ -2,144 +2,177 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>covid</title>
+    <title>Informativo COVID-19</title>
     
+    <!-- Fontes do Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1 id="titulo-principal">Informativo COVID-19</h1>
-    
-    <p class="subtitulo destaque">SAIBA MAIS SOBRE O CORONAVÍRUS:</p>
-    
-    <div class="moldura-polaroid">
-        <img src="imagens/coronavirus.png" alt="Coronavírus" width="380">
-    </div><br><br>
+    <!-- CAPA COM VIDEO DE FUNDO -->
+    <div class="capa" id="inicio">
+        <video autoplay loop muted playsinline class="video-fundo">
+            <source src="video/virus.mp4" type="video/mp4">
+        </video>
 
-    <h2>O que é a COVID-19?</h2>
-    <p>A covid é uma infecção respiratória provocada pelo vírus SARS-CoV-2. Ela acabou pegando todo mundo de surpresa no final de 2019 e começo de 2020.</p>
+        <!-- Sombra para escurecer o video e ler o texto por cima -->
+        <div class="sombra"></div>
 
-    <h2>Modo de transmissão</h2>
-    <p>A transmissão acontece fácil pelo contato direto com a pessoa doente, por gotículas do espirro ou fala, e por partículas no ar.</p>
+        <div class="topo">
+            <span class="logo">INFORMATIVO</span>
+            <div class="menu">
+                <a href="#inicio">Início</a>
+                <a href="#ajuda">Ajuda</a>
+                <a href="#contato">Entre em contato</a>
+            </div>
+        </div>
 
-    <h2>Sintomas principais:</h2>
-    <ol class="lista-itens">
-        <li>Febre, tosse e dor de garganta</li>
-        <li>Coriza e dor no corpo</li>
-        <li>Cansaço e dor de cabeça</li>
-        <li>Perda de cheiro e de gosto</li>
-        <li>Diarreia e dores na barriga</li>
-    </ol>
+        <div class="texto-capa">
+            <h1>INFORMATIVO COVID-19</h1>
+            <p>Saiba mais sobre o Coronavírus e formas de prevenção</p>
+            <br><br>
+            <a href="#conteudo" class="link-aluno">Saiba mais ↓</a>
+        </div>
+    </div>
 
-    <p>Nos casos piores a pessoa sente falta de ar e dor forte no peito, precisando ir direto pro hospital.</p>
+    <!-- CONTEUDO PRINCIPAL -->
+    <main class="principal" id="conteudo">
 
-    <h2>Como confirmar a doença?</h2>
-    <h3>1. Sintomas e contato</h3>
-    <p>Pessoa com sintomas que teve contato com alguém confirmado nos últimos dias.</p>
-    
-    <h3>2. Testes de farmácia ou posto</h3>
-    <p>Confirmação feita por teste do cotonete (RT-PCR) ou teste rápido de antígeno.</p>
+        <h2>O que é a COVID-19?</h2>
+        <p>A COVID-19 é uma infecção respiratória provocada pelo vírus SARS-CoV-2. Ela acabou pegando todo mundo de surpresa no final de 2019 e começo de 2020.</p>
 
-    <h2>Complicações:</h2>
-    <p>Algumas pessoas podem piorar bastante e precisar de UTI por causa de problemas no pulmão e falta de ar.</p>
+        <!-- POLAROID COM DUREX 1 -->
+        <div class="foto-polaroid">
+            <div class="durex"></div>
+            <img src="imagens/coronavirus.png" alt="Coronavírus" width="350">
+        </div>
 
-    <h2>Tratamento:</h2>
-    <p>O posto de saúde e o SUS liberaram remédios antivirais para pessoas mais velhas ou com saúde frágil logo nos primeiros dias de sintoma.</p>
+        <h2>Modo de transmissão</h2>
+        <p>A transmissão acontece facilmente pelo contato direto com a pessoa doente, por gotículas do espirro ou fala, e por partículas no ar.</p>
 
-    <h2>Como se proteger do vírus?</h2>
-    <p>Para não pegar e nem passar o vírus para a família, é muito importante seguir essas dicas simples no dia a dia:</p>
-    <p>
-        • Lavar bem as mãos com água e sabão ou usar álcool em gel 70%<br>
-        • Usar máscara quando estiver em locais fechados ou muito cheios<br>
-        • Evitar colocar as mãos nos olhos, nariz e boca sem lavar antes<br>
-        • Manter as vacinas em dia e o cartão atualizado
-    </p>
+        <h2>Sintomas principais:</h2>
+        <ol class="lista">
+            <li>Febre, tosse e dor de garganta</li>
+            <li>Coriza e dor no corpo</li>
+            <li>Cansaço e dor de cabeça</li>
+            <li>Perda de cheiro e de gosto</li>
+            <li>Diarreia e dores na barriga</li>
+        </ol>
 
-    <div class="moldura-polaroid">
-        <img src="imagens/virus 3.png" alt="Virus 3" width="380">
-    </div><br><br>
+        <p>Nos casos piores a pessoa sente falta de ar e dor forte no peito, precisando ir direto para o hospital.</p>
 
-    <h3>Fonte da pesquisa:</h3>
-    <p>
-        Texto feito com base em informações do 
-        <a href="https://www.gov.br/saude/pt-br/assuntos/coronavirus" target="_blank">Ministério da Saúde</a>.
-    </p>
+        <h2>Como confirmar a doença?</h2>
+        <h3>1. Sintomas e contato</h3>
+        <p>Pessoa com sintomas que teve contato com alguém confirmado nos últimos dias.</p>
+        
+        <h3>2. Testes de farmácia ou posto</h3>
+        <p>Confirmação feita por teste do cotonete (RT-PCR) ou teste rápido de antígeno.</p>
 
-    <br>
+        <h2>Complicações</h2>
+        <p>Algumas pessoas podem piorar bastante e precisar de UTI por causa de problemas no pulmão e falta de ar.</p>
 
-    <form>
-        <fieldset>
-            <legend>Informações Pessoais</legend>
-            
-            Nome completo: <input type="text" placeholder="Digite seu nome"><br><br>
+        <h2>Tratamento</h2>
+        <p>O posto de saúde e o SUS liberaram remédios antivirais para pessoas mais velhas ou com saúde frágil logo nos primeiros dias de sintoma.</p>
 
-            E-mail:* <input type="email" required><br><br>
+        <h2 id="ajuda">Como se proteger do vírus:</h2>
+        <p>Para não pegar e nem passar o vírus para a família, é muito importante seguir essas dicas simples no dia a dia:</p>
+        <p>
+            • Lavar bem as mãos com água e sabão ou usar álcool em gel 70%<br>
+            • Usar máscara quando estiver em locais fechados ou muito cheios<br>
+            • Evitar colocar as mãos nos olhos, nariz e boca sem lavar antes<br>
+            • Manter as vacinas em dia e o cartão atualizado
+        </p>
 
-            Senha: <input type="password"><br><br>
+        <!-- POLAROID COM DUREX 2 -->
+        <div class="foto-polaroid">
+            <div class="durex"></div>
+            <img src="imagens/virus 3.png" alt="Vírus" width="350">
+        </div>
 
-            Idade: <input type="number"><br><br>
+        <h3>Fonte da pesquisa:</h3>
+        <p>
+            Texto feito com base em informações do 
+            <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/covid-19" target="_blank">Ministério da Saúde</a>.
+        </p>
 
-            Data de nascimento: <input type="date"><br><br>
+        <br><br>
 
-            Gênero: 
-            <select>
-                <option>Selecione</option>
-                <option>Feminino</option>
-                <option>Masculino</option>
-                <option>Outro</option>
-            </select>
-        </fieldset>
+        <!-- FORMULARIO -->
+        <form id="contato">
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                
+                Nome completo: <input type="text" placeholder="Digite seu nome"><br><br>
 
-        <fieldset>
-            <legend>Sintomas e Vacina</legend>
+                E-mail:* <input type="email" required><br><br>
 
-            Sintoma que voce sentiu recentimente:*<br>
-            <input type="text"><br><br>
+                Senha: <input type="password"><br><br>
 
-            Quantas doses tomou:
-            <select>
-                <option>Selecione</option>
-                <option>Nenhuma</option>
-                <option>1 dose</option>
-                <option>2 doses</option>
-                <option>3 doses ou mais</option>
-            </select><br><br>
+                Idade: <input type="number"><br><br>
 
-            Fale um pouco sobre o que esta sentindo:<br>
-            <textarea rows="4" cols="35"></textarea>
-        </fieldset>
+                Data de nascimento: <input type="date"><br><br>
 
-        <fieldset>
-            <legend>Preferências de Contato</legend>
+                Gênero: 
+                <select>
+                    <option>Selecione</option>
+                    <option>Feminino</option>
+                    <option>Masculino</option>
+                    <option>Outro</option>
+                </select>
+            </fieldset>
 
-            Melhor horário para ligar: <input type="time"><br><br>
+            <fieldset>
+                <legend>Sintomas e Vacina</legend>
 
-            Data disponivel para postar o trabalho: <input type="date">
-        </fieldset>
+                Sintoma que você sentiu recentemente:*<br>
+                <input type="text"><br><br>
 
-        <fieldset>
-            <legend>Informações Adicionais</legend>
+                Quantas doses tomou:
+                <select>
+                    <option>Selecione</option>
+                    <option>Nenhuma</option>
+                    <option>1 dose</option>
+                    <option>2 doses</option>
+                    <option>3 doses ou mais</option>
+                </select><br><br>
 
-            <details>
-                <summary>Dúvidas sobre o formulário</summary>
-                <p>Se precisar mudar alguma coisa mande uma mensagem no e-mail abaixo.</p>
-            </details><br>
+                Fale um pouco sobre o que está sentindo:<br>
+                <textarea rows="4" cols="35"></textarea>
+            </fieldset>
 
-            <p><mark>Atenção: confira seus dados antes de enviar o formulario!</mark></p>
+            <fieldset>
+                <legend>Preferências de Contato</legend>
 
-            <p>Aluno responsável:</p>
-            <p>
-                Trabalho da Escola / SENAI<br>
-                E-mail: agnes.nascimento@edu.senai.br
-            </p>
+                Melhor horário para ligar: <input type="time"><br><br>
 
-            <button type="submit">Enviar Cadastro</button>
-        </fieldset>
-    </form>
+                Data disponível para postar o trabalho: <input type="date">
+            </fieldset>
+
+            <fieldset>
+                <legend>Informações Adicionais</legend>
+
+                <details>
+                    <summary>Dúvidas sobre o formulário</summary>
+                    <p>Se precisar mudar alguma coisa mande uma mensagem no e-mail abaixo.</p>
+                </details><br>
+
+                <p><mark>Atenção: confira seus dados antes de enviar o formulário!</mark></p>
+
+                <p>CONTATO:</p>
+                <p>
+                    Trabalho da Escola / SENAI<br>
+                    E-mail: agnes.nascimento@edu.senai.br
+                </p>
+
+                <button type="submit">Enviar Cadastro</button>
+            </fieldset>
+        </form>
+
+    </main>
 
 </body>
 </html>
